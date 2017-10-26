@@ -22,7 +22,7 @@ public class GrandCircusLab3 {
 			System.out.println("Number\t\tSquared\t\tCubes\n");
 			System.out.println("======\t\t======\t\t=====\n");
 			for (int i = 1; i <= num; i++) {
-				int userSquares = i * i;
+				int userSquares = getSquares (i);
 				int userCubes = getCubes(i);
 
 				// Based on user input display table for squared and cubed
@@ -42,6 +42,12 @@ public class GrandCircusLab3 {
 
 		int result = (int) Math.pow(num, 3);
 
-		return result;
+		return result;	}
+	
+	public static int getSquares(int num) {
+		int result = (int) Math.pow(num, 2);
+		
+		return result; }
 	}
-}
+
+
