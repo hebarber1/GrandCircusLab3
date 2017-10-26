@@ -13,6 +13,10 @@ public class GrandCircusLab3 {
 		
 		num = scnr.nextInt();
 		
+		// Print title of columns
+		System.out.println("Number\t\tSquared\t\tCubes\n");
+		System.out.println("======\t\t======\t\t=====\n");
+		
 		// Create formulas for calculating squares and cubes
 		
 		// start for loop
@@ -23,7 +27,9 @@ public class GrandCircusLab3 {
 		
 		// Based on user input display table for squared and cubed 
 		
-		System.out.println(i + "     " + userSquares + "    " + userCubes);
+		
+		System.out.println(i + "\t\t" + userSquares + "\t\t" + userCubes);
+		
 		// Then ask user if they want to continue (y/n)
 		
 		}
